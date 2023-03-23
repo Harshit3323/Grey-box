@@ -47,11 +47,12 @@ body {
     width:50%;
 }
 .btn-1 {
-    width: 15.5vw !important;
-    height: 4.5vw !important;
-    border: none !important;
-    padding: 10px !important;
-    font-size: 1.5vw !important;
-    color: #fafafa !important;
-    background-color: #526143 !important;
+    width: 15.5vw;
+    height: 4.5vw;
+    border: none;
+    padding: 10px;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    color: #fafafa;
+    background-color: #526143;
 }
