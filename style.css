@@ -35,9 +35,19 @@ body {
 .images {
     position: relative;
     left: 49%;
-    bottom:25vw;
+    bottom:30vw;
     width: auto;
 }
 .img{
     width:50%;
+}
+.btn-1 {
+    width: 15.5vw;
+    height: 5.25vw;
+    border: none;
+    padding: 10px;
+    font-size: 1.5vw;
+    border-radius: 15px;
+    color: #fafafa;
+    background-color: #526143;
 }
