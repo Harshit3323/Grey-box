@@ -2,6 +2,7 @@ body {
     margin: 0; 
     color: #414042;;
 }
+/* NAVBAR */
 .navbar {
     background: #fbfbfb;
     padding-bottom: 3.125rem;
@@ -14,6 +15,10 @@ body {
     background: #ccd0c7;
     padding: 0.313rem 1.25rem;
 }
+.nav-link {
+    padding: 0!important;
+}
+/* CAPTION*/
 .caption {
     margin-left: 5%;
     margin-top: 5%;
@@ -42,12 +47,11 @@ body {
     width:50%;
 }
 .btn-1 {
-    width: 15.5vw;
-    height: 5.25vw;
-    border: none;
-    padding: 10px;
-    font-size: 1.5vw;
-    border-radius: 15px;
-    color: #fafafa;
-    background-color: #526143;
+    width: 15.5vw !important;
+    height: 4.5vw !important;
+    border: none !important;
+    padding: 10px !important;
+    font-size: 1.5vw !important;
+    color: #fafafa !important;
+    background-color: #526143 !important;
 }
