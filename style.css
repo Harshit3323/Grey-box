@@ -4,7 +4,7 @@ body {
 }
 /* NAVBAR */
 .logo {
-    width: 70%;
+    width: 7rem;
 }
 .navbar {
     background: #fbfbfb;
@@ -12,6 +12,7 @@ body {
 }
 .navbar-toggler-icon {
     font-size: 80%!important;
+    border-color: transparent;
 }
 .nav-item {
     margin: 0 1.25rem;
@@ -49,26 +50,40 @@ body {
 .green {
     font-weight: bolder;
 }
-.images {
+.cap-img {
     position: relative;
     left: 49%;
-    bottom:30vw;
-    width: auto;
+    bottom:25vw;
 }
 .img{
     width:50%;
 }
 .btn-1 {
-    width: 15.5vw;
-    height: 4.5vw;
+    width: 15vw;
+    height: rem;
     border: none;
     padding: 10px;
-    font-size: 1.5vw;
-    border-radius: 1vw;
-    color: #fafafa;
-    background-color: #526143;
+    font-size: 1.5vw!important;
+    border-radius: 1vw!important;
+    color: #fafafa!important;
+    background-color: #526143!important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-@media (max-width: 990px) {
-  
+
+@media (max-width: 600px) {
+    .logo {
+        width: 90px;
+    }
+    .cap-img{
+        position: static;
+        text-align: center;
+    }
+
+    .caption {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3vw;
+    }
 }   
