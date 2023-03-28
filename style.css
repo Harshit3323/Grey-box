@@ -3,6 +3,9 @@ body {
     color: #414042;;
 }
 /* NAVBAR */
+.logo {
+    width: 80%;
+}
 .navbar {
     background: #fbfbfb;
     padding-bottom: 3.125rem;
@@ -10,10 +13,10 @@ body {
 .nav-btn {
     border: none;
     margin: 0 1.25rem;
-    color: #414042;
-    font-weight: 500;
-    background: #ccd0c7;
-    padding: 0.313rem 1.25rem;
+    font-weight: ;
+}
+.navbar-nav {
+    margin-right: 5%;
 }
 .nav-link {
     padding: 0!important;
@@ -55,4 +58,11 @@ body {
     border-radius: 1vw;
     color: #fafafa;
     background-color: #526143;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+@media onlyscreen and (max-width:984px) {
+    .navbar-nav {
+        margin-left:80%;
+    }
+    
 }
