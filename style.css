@@ -10,9 +10,11 @@ body {
     background: #fbfbfb;
     padding-bottom: 3.125rem;
 }
+.nav-item {
+    margin: 0 1.25rem;
+}
 .nav-btn {
     border: none;
-    margin: 0 1.25rem;
     font-weight: ;
 }
 .navbar-nav {
