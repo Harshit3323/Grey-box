@@ -1,8 +1,13 @@
+
 body {
     margin: 0; 
-    color: #414042;;
+    color: #414042;
 }
+
 /* NAVBAR */
+.main {
+    height: auto;
+}
 .logo {
     width: 7rem;
 }
@@ -51,25 +56,63 @@ body {
     font-weight: bolder;
 }
 .cap-img {
-    position: relative;
+    position: absolute;
     left: 49%;
-    bottom:25vw;
+    top: 150px;
+    width:50vw;
 }
 .img{
-    width:50%;
+    width:80%;
 }
 .btn-1 {
-    width: 15vw;
-    height: rem;
     border: none;
-    padding: 10px;
+    padding:  .5vw 2vw!important;
     font-size: 1.5vw!important;
     border-radius: 1vw!important;
     color: #fafafa!important;
     background-color: #526143!important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.bens {
+    background-color:#526143;
+    color: #fafafa;
+    margin-top: 80px;
+}
+.content {
+    padding: 30px 0;
+    padding-left: 5%;
+}
+.row {    
+    margin-right: 0!important;
+}
+.bens-cap{
+    display: inline-block;
+    width: 50%;
+    padding-left: 3rem;
+}
+.bens-cap h3 {
+    font-size: 2vw;
+}
+.bens-cap h1{
+    font-size: 3vw;
+}
+.bens-cap p {
+    font-size: 1vw;
+    font-weight: 300;
+}
+.bens-icon {
+    display: inline-block;
+}
+.bens-icon ul{
+    display:inline; 
+}
+.bens-icon ul li {
+    display: inline-block;
+}
+.bens-img {
+    width: 8vw;
+    margin: 1rem 1vw;
+}
 
 @media (max-width: 600px) {
     .logo {
@@ -77,13 +120,39 @@ body {
     }
     .cap-img{
         position: static;
+        width: auto;
         text-align: center;
+    }
+    .img {
+        width: 66%;
     }
 
     .caption {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 3vw;
+        margin-bottom: 4vw;
     }
 }   
+
+@media (max-width:990px) {
+    .bens-cap{
+        text-align: center;
+        padding-left: 1rem!important;
+    }
+    .bens-cap h3{
+        font-size: 3vw;
+    }
+    .bens-cap h1 {
+        font-size: 4vw;
+    }
+    .bens-cap p {
+        font-size: 1.5vw;
+    }
+    .bens-icon{
+        text-align: center;
+    }
+    .bens-icon img {
+        width: 10vw;
+    }
+}
