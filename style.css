@@ -113,6 +113,26 @@ body {
     width: 8vw;
     margin: 1rem 1vw;
 }
+.vis {
+    margin-top: 80px!important;
+}
+.vis-1 {
+    width: fit-content;
+    text-align: center;
+}
+.vis-img {
+    width: 80%;
+}
+.vis-cap h1 {
+    color: #526143;
+}
+.vis-cap p{
+    width: 90%;
+    color: #526143;
+}
+#more{
+    display: inline ;
+}
 
 @media (max-width: 600px) {
     .logo {
@@ -137,9 +157,10 @@ body {
         width: fit-content;
     }
     .bens-img {
-        width: 13vw!important;
+        width: 15vw!important;
     }
 }   
+
 
 @media (max-width:990px) {
     .bens-cap{
@@ -147,13 +168,13 @@ body {
         padding-left: 1rem!important;
     }
     .bens-cap h3{
-        font-size: 3vw;
-    }
-    .bens-cap h1 {
         font-size: 4vw;
     }
+    .bens-cap h1 {
+        font-size: 5vw;
+    }
     .bens-cap p {
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
     .bens-icon{
         text-align: center;
@@ -161,5 +182,20 @@ body {
     .bens-img {
         width: 15vw;
         margin-right: 30px;
+    }
+    .vis-cap h1{
+        text-align: center;
+    }
+    .vis-p{
+       text-align: center;
+       margin-left: 20%;
+       margin-top: 20px;
+    }
+    .vis-cap p{
+        text-align: left;
+        width: 80%;
+    }
+    #more{
+        display: none;
     }
 }
