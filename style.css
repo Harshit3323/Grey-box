@@ -130,8 +130,14 @@ body {
     width: 90%;
     color: #526143;
 }
+#dots{
+    display: none;
+}
 #more{
     display: inline ;
+}
+#myBtn{
+    display: none;
 }
 
 @media (max-width: 600px) {
@@ -160,6 +166,18 @@ body {
         width: 15vw!important;
     }
 }   
+
+@media (max-width:768px){
+    #dots{
+        display: inline;
+    }
+    #more{
+        display: none ;
+    }
+    #myBtn{
+        display: block;
+    }
+}
 
 
 @media (max-width:990px) {
