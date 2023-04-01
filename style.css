@@ -139,6 +139,13 @@ body {
 #myBtn{
     display: none;
 }
+.dis {
+    background-color: #526143;
+    color: #fff;
+    text-align: center;
+    margin-top: 10vh!important;
+    padding: 5vh 0;
+}
 
 @media (max-width: 600px) {
     .logo {
