@@ -3,7 +3,9 @@ body {
     margin: 0; 
     color: #414042;
 }
-
+ul{
+    list-style-type: none;
+}
 /* NAVBAR */
 .main {
     height: auto;
@@ -146,6 +148,93 @@ body {
     margin-top: 10vh!important;
     padding: 5vh 0;
 }
+.icon-li, .icon-li2 {
+    display: inline-block;
+    list-style-type: none;
+
+}
+.icon-li li,.icon-li2 li {
+    display: inline-block;
+    margin: 0 20px;
+    width: 25%;
+}
+.dis-png {
+    width: 100%!important;
+}
+
+.products{
+    width: inherit;
+    height: 125vh;
+    background-color: #ededdb;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3vw;
+}
+.pro-img{
+    width: 20vw;
+    height: 20vw;
+    background-color: #d9d9d9;
+    margin-left: 6vw;
+}
+.colm{
+    margin-bottom: 50px;
+}
+.pro-cap{
+    width: 20vw;
+    text-align: center;
+    margin-left: 19%;
+}
+.pro-cap:hover{
+    background-color: #526143;
+    color: #fff;
+}
+.background{
+    background-image: url(./bg.png);
+    width: auto;
+    height: 90vh;
+}
+.blur{
+    background-image: url(./blurr.png);
+    width: 90%;
+    height: 80%;
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+.blurr-cap {
+    color: #fff;
+    position: inherit;
+    top: 10%;
+}
+.blurr-icon {
+    position: inherit;
+    top: 20%;
+}
+.blurr-icon img{
+    width: 15%;
+}
+.items{
+    display: inline-block;
+}
+.footer {
+    background-color: #526143;
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+}
+.creds{ 
+    text-align: left;
+}
+.credential{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.foot-btn{
+    background-color: #ededdb!important;
+    color: #2b2a2c!important;
+    margin-left: 5%;
+}
+.products h3 {}
 
 @media (max-width: 600px) {
     .logo {
@@ -172,7 +261,42 @@ body {
     .bens-img {
         width: 15vw!important;
     }
+    .col1,.col2,.col3{
+        width: 50vw;
+        height: 50vw;
+    }
+    .cont{
+        width: 100%!important;
+    }
+    .col1, .col2, .col3 {
+        margin-left: 25%;
+    }
+    .col1-cap,.col2-cap,.col3-cap {
+        margin-left: 12rem;
+        width: 200px;
+        margin-bottom: 10vw;
+        font-size: 5vw;
+    }
+    .products{
+        height: 500vh;
+    }
+    .adds {
+        font-size: 10px;
+        text-align: right;
+        min-width: 50%!important;
+    }
+    .creds{
+        font-size: 15px;
+    }
+    .blank{
+        display: none!important;
+    }
+    .foot-btn {
+        padding: 10px 20px!important;
+        font-size: 12px!important;
+    }
 }   
+
 
 @media (max-width:768px){
     #dots{
@@ -183,11 +307,31 @@ body {
     }
     #myBtn{
         display: block;
+        padding: 10px 15px!important;
+        font-size: large;
     }
+    .dis-png {
+        width: 70%!important;
+    }
+    .icon-li, .icon-li2 {
+        display: block;
+        list-style-type: none;
+        width: inherit;
+    
+    }
+    .icon-li li,.icon-li2 li {
+        display: inline-block;
+        margin: 0 ;
+        width: 25%;
+    }
+    .dis-png{
+        width: 75%!important;
+    }
+
 }
 
 
-@media (max-width:990px) {
+@media (max-width:991px) {
     .bens-cap{
         text-align: center;
         padding-left: 1rem!important;
@@ -222,5 +366,29 @@ body {
     }
     #more{
         display: none;
+    }
+    .background{
+        height: 50vh;
+    }
+    .blurr-icon img{
+        width: 15%;
+    }
+    .creds-1,.creds-2,.adds,.blank {
+        width: 25%!important;
+    }
+}
+@media (min-width:601px) and ( max-width:991px) {
+    
+    .col1, .col1-cap{
+        margin-left: 10vw;
+    }
+    .col2, .col2-cap{
+        margin-left: 30vw;
+    }
+    .col3, .col3-cap{
+        margin-left: 50vw;
+    }
+    .products{
+        height: 100vh;
     }
 }
